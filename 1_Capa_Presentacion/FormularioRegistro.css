@@ -19,15 +19,13 @@ body {
 
 /* Estilo para separar el texto "Registro de Usuario" del formulario */
 h2 {
-    margin-bottom: 20px;
+    margin: 20px 0; /* Agrega margen superior e inferior para separar el texto del formulario */
 }
 
 /* Estilo para el formulario con un box-shadow blanco */
 form {
-    background-color: white; /* Agrega un fondo blanco al formulario */
-    padding: 20px; /* Espacio interno para el formulario */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agrega un box-shadow blanco */
-    border-radius: 10px; /* Bordes curvados para el formulario */
+    padding: 20px 30px; /* Ajusta el relleno para agregar espacio en los lados derecho e izquierdo */
+    text-align: left; /* Alinea el texto a la izquierda */
 }
 
 /* Estilo para centrar el botón "Registrarse" */
@@ -46,4 +44,15 @@ button {
 /* Estilo para separación entre campos del formulario */
 .form-group {
     margin-bottom: 15px; /* Espacio vertical entre campos */
+}
+
+/* Estilo para hacer que los campos de entrada tengan un ancho máximo */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    max-width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
