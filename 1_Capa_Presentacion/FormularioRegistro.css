@@ -1,5 +1,6 @@
 /* Estilo para el contenedor principal */
 body {
+    font-family: 'Roboto', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
