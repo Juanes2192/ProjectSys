@@ -13,10 +13,10 @@ body {
 .container {
     width: 300px;
     text-align: center;
-    background-color: white; /* Agrega un fondo blanco al formulario */
-    padding: 20px; /* Espacio interno para el formulario */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agrega un box-shadow blanco */
-    border-radius: 10px; /* Bordes curvados para el formulario */
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px;
 }
 
 h2 {
@@ -50,9 +50,9 @@ button {
     border: none;
     cursor: pointer;
     font-family: 'Staatliches', sans-serif;
-    margin: 0 auto; /* Centra el botón horizontalmente */
-    display: block; /* Hace que el botón sea un bloque para centrarlo */
-    border-radius: 10px; /* Bordes curvados para el botón */
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
 }
 
 #loginMessage {

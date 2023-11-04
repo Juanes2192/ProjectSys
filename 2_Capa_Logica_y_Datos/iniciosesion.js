@@ -5,10 +5,8 @@ document.addEventListener("DOMContentLoaded", function () {
         const loginCorreo = document.getElementById("loginCorreo").value;
         const loginContrasena = document.getElementById("loginContrasena").value;
 
-        // Obtener los datos del usuario desde el localStorage
         const userData = JSON.parse(localStorage.getItem(loginCorreo));
 
-        // Mostrar el mensaje en el documento HTML
         const loginMessage = document.getElementById("loginMessage");
 
         if (userData && userData.contrasena === loginContrasena) {
@@ -19,7 +17,6 @@ document.addEventListener("DOMContentLoaded", function () {
             loginMessage.style.color = "red";
         }
 
-        // Limpiar los campos del formulario
         document.getElementById("loginCorreo").value = "";
         document.getElementById("loginContrasena").value = "";
     }
