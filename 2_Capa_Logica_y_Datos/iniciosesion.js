@@ -12,6 +12,9 @@ document.addEventListener("DOMContentLoaded", function () {
         if (userData && userData.contrasena === loginContrasena) {
             loginMessage.textContent = "Inicio de sesión exitoso";
             loginMessage.style.color = "green";
+
+            // Redirigir a pantallaprincipal.html
+            window.location.href = "file:///C:/Users/Jeanky/Documents/GitHub/ProjectSys/1_Capa_Presentacion/menu.html";
         } else {
             loginMessage.textContent = "Credenciales incorrectas";
             loginMessage.style.color = "red";
