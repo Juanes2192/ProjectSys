@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.menu-bar {
+    background-color: #2C6755;
+    display: flex;
+    justify-content: center; /* Centra los elementos en el eje horizontal */
+    align-items: center; /* Centra los elementos en el eje vertical */
+    height: 80px;
+}
+
+.menu-btn {
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    background-color: inherit;
+    color: white;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.menu-btn:hover {
+    background-color: #113329;
+}

@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
             loginMessage.style.color = "green";
 
             // Redirigir a pantallaprincipal.html
-            window.location.href = "file:///C:/Users/Jeanky/Documents/GitHub/ProjectSys/1_Capa_Presentacion/menu.html";
+            window.location.href = "../1_Capa_Presentacion/menu.html";
         } else {
             loginMessage.textContent = "Credenciales incorrectas";
             loginMessage.style.color = "red";
