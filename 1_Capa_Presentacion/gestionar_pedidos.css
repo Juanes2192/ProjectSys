@@ -24,3 +24,18 @@ body {
 .menu-btn:hover {
     background-color: #113329;
 }
+
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+#titulo, #fechas {
+    background-color: #2C6755;
+    padding: 10px;
+    color: white;
+    margin: 10px 0;
+}
+table, th, td {
+    border: 1px solid black;
+}

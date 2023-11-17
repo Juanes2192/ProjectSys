@@ -14,6 +14,24 @@
     <div>
         <h1>Gestionar Pedidos</h1>
     </div>
+  <div id="fechas">
+        <p><label for="desde">Mostrar desde:</label>
+        <input type="date" id="desde" name="desde" onchange="actualizarTabla()"></p>
+        <p></p><label for="hasta">Mostrar hasta:</label>
+        <input type="date" id="hasta" name="hasta" onchange="actualizarTabla()"></p>
+    </div>
+    <button onclick="nuevoPedido()">Nuevo</button>
+    <button onclick="modificarPedido()">Modificar</button>
+    <button onclick="cancelarPedido()">Cancelar</button>
+    <table id="tablaPedidos">
+        <tr>
+            <th>PRODUCTOS</th>
+            <th>CANTIDADES</th>
+            <th>FECHA DE ENTREGA</th>
+            <th>DESCRIPCIÓN</th>
+        </tr>
+        <!-- Aquí se agregarán las filas de los pedidos -->
+    </table>
     <script src="../2_Capa_Logica_y_Datos/gestionar_pedidos.js"></script>
 </body>
 </html>
