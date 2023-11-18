@@ -20,10 +20,12 @@
         <p></p><label for="hasta">Mostrar hasta:</label>
         <input type="date" id="hasta" name="hasta" onchange="actualizarTabla()"></p>
     </div>
-    <button onclick="nuevoPedido()">Nuevo</button>
-    <button onclick="modificarPedido()">Modificar</button>
-    <button onclick="cancelarPedido()">Cancelar</button>
-    <table id="tablaPedidos">
+    <div class="botones-container"> <!-- Agrega la clase botones-container aquí -->
+        <button onclick="nuevoPedido()">Nuevo</button>
+        <button onclick="modificarPedido()">Modificar</button>
+        <button onclick="cancelarPedido()">Cancelar</button>
+    </div>
+    <center><table id="tablaPedidos">
         <tr>
             <th> ID FACTURA </th>
             <th> FECHA </th>
@@ -31,7 +33,7 @@
             <th> DESCRIPCIÓN </th>
         </tr>
         <!-- Aquí se agregarán las filas de los pedidos -->
-    </table>
+    </table></center
     <script src="../2_Capa_Logica_y_Datos/gestionar_registros_facturas.js"></script>
 </body>
 </html>

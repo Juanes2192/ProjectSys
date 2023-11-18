@@ -8,8 +8,8 @@
 </head>
 <body>
     <div class="menu-bar">
-        <button class="menu-btn" id="home">Home</button>
-        <button class="menu-btn" id="gestionarfacturas">Gestionar Facturas</button>
+        <button class="menu-btn" id="home">home</button>
+        <button class="menu-btn" id="otraFuncion">Otra función</button>
     </div>
     <div>
         <h1>Gestionar Pedidos</h1>
@@ -20,10 +20,12 @@
         <p></p><label for="hasta">Mostrar hasta:</label>
         <input type="date" id="hasta" name="hasta" onchange="actualizarTabla()"></p>
     </div>
-    <button onclick="nuevoPedido()">Nuevo</button>
-    <button onclick="modificarPedido()">Modificar</button>
-    <button onclick="cancelarPedido()">Cancelar</button>
-    <table id="tablaPedidos">
+    <div class="botones-container"> <!-- Agrega la clase botones-container aquí -->
+        <button onclick="nuevoPedido()">Nuevo</button>
+        <button onclick="modificarPedido()">Modificar</button>
+        <button onclick="cancelarPedido()">Cancelar</button>
+    </div>
+    <center><table id="tablaPedidos">
         <tr>
             <th>PRODUCTOS</th>
             <th>CANTIDADES</th>
@@ -31,7 +33,7 @@
             <th>DESCRIPCIÓN</th>
         </tr>
         <!-- Aquí se agregarán las filas de los pedidos -->
-    </table>
+    </table></center>
     <script src="../2_Capa_Logica_y_Datos/gestionar_pedidos.js"></script>
 </body>
 </html>

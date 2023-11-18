@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    
 }
 
 .menu-bar {
@@ -30,12 +31,50 @@ body {
     color: black;
     font-family: Arial, sans-serif;
 }
+h1 {
+    text-align: center;
+    margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+}
 #titulo, #fechas {
     background-color: #2C6755;
     padding: 10px;
     color: white;
     margin: 10px 0;
+    text-align: center; /* Centra el texto en los contenedores #titulo y #fechas */
 }
 table, th, td {
     border: 1px solid black;
+}
+button {
+    margin-bottom: 10px;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px; /* Agrega esquinas redondas */
+    cursor: pointer;
+    background-color: #2C6755;
+    color: white;
+    transition: background-color 0.3s;
+    
+}
+.botones-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Añadido para centrar verticalmente los botones */
+    gap: 10px; /* Ajusta el espacio entre los botones según sea necesario */
+}
+#tablaPedidos {
+    width: 80%;
+    margin-top: 20px;
+}
+
+#tablaPedidos th {
+    text-align: center;
+}
+
+#tablaPedidos th:nth-child(1),
+#tablaPedidos th:nth-child(2),
+#tablaPedidos th:nth-child(3),
+#tablaPedidos th:nth-child(4) {
+    text-align: center;
 }
