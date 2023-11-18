@@ -7,7 +7,7 @@ document.getElementById('home').addEventListener('click', function() {
 document.getElementById('gestionarfacturas').addEventListener('click', function() {
     // Lógica para la otra función
     console.log('Otra función clickeada');
-    window.location.href = 'gestionar_registros_facturas.html'; // Cambia esto al nombre del archivo destino
+    window.location.href = 'gestionar_pedidos.html'; // Cambia esto al nombre del archivo destino
 });
 
 var pedidos = [];

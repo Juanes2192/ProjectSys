@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gestionar Pedidos</title>
-    <link rel="stylesheet" href="gestionar_pedidos.css">
+    <link rel="stylesheet" href="gestionar_registros_facturas.css">
 </head>
 <body>
     <div class="menu-bar">
         <button class="menu-btn" id="home">Home</button>
-        <button class="menu-btn" id="gestionarfacturas">Gestionar Facturas</button>
+        <button class="menu-btn" id="gestionarfacturas">Gestionar Pedidos</button>
     </div>
     <div>
-        <h1>Gestionar Pedidos</h1>
+        <h1>Gestionar Facturas</h1>
     </div>
   <div id="fechas">
         <p><label for="desde">Mostrar desde:</label>
@@ -25,13 +25,13 @@
     <button onclick="cancelarPedido()">Cancelar</button>
     <table id="tablaPedidos">
         <tr>
-            <th>PRODUCTOS</th>
-            <th>CANTIDADES</th>
-            <th>FECHA DE ENTREGA</th>
-            <th>DESCRIPCIÓN</th>
+            <th> ID FACTURA </th>
+            <th> FECHA </th>
+            <th> MONTO </th>
+            <th> DESCRIPCIÓN </th>
         </tr>
         <!-- Aquí se agregarán las filas de los pedidos -->
     </table>
-    <script src="../2_Capa_Logica_y_Datos/gestionar_pedidos.js"></script>
+    <script src="../2_Capa_Logica_y_Datos/gestionar_registros_facturas.js"></script>
 </body>
 </html>
